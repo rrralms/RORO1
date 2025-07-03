@@ -1,0 +1,48 @@
+
+body {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  font-family: 'Fira Code', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.code-container {
+  background-color: #252526;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 0 30px rgba(255, 0, 100, 0.4);
+  max-width: 700px;
+  width: 90%;
+}
+
+.keyword {
+  color: #569CD6;
+}
+
+.string {
+  color: #CE9178;
+}
+
+.boolean {
+  color: #B5CEA8;
+}
+
+.typewriter {
+  color: #F44747;
+  font-size: 1.2em;
+  margin-top: 20px;
+  white-space: pre-wrap;
+  border-left: 2px solid #F44747;
+  padding-left: 10px;
+  animation: blink 0.8s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
